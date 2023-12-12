@@ -10,57 +10,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c2c4648d81.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-pink-100">
 
     <!--Navbar-->
     <nav class="bg-orange-100 flex flex-col sm:flex-row justify-between items-center font-serif">
 
         <div class="mx-4 my-4 ">
           
-          <img class="h-16 md:h-20 ml-4 cursor-pointer" src="img/Zakiyyah Logo Hi Res Transparent.png" alt="logo">
-          <!-- <h1 class="mt-2  mx-2 cursor-pointer py-4 font-semibold text-lg sm:text-2xl">Zakiyyah</h1> -->
+          <a href="./index.html"><img class="h-16 md:h-20 ml-4 cursor-pointer" src="img/Zakiyyah Logo Hi Res Transparent.png" alt="logo"> </a>  
+          
     
         </div>
     
         
     
-        <div class="">
-          <ul class="flex justify-center items-center text-sm sm:text-lg lg:text-xl  sm:items-center sm:gap-2">
+        <div>
+          <ul class="flex justify-center items-center text-sm font-poppins sm:text-base lg:text-lg sm:items-center sm:gap-2">
               <li class="px-2 cursor-pointer hover:text-emerald-800 hover:underline"><a href="./index.html">Home</a></li>
               <li class="px-2 cursor-pointer hover:text-emerald-800 hover:underline"><a href="./projects.html">Projects</a></li>
-              <li class="px-2 cursor-pointer hover:text-emerald-800 hover:underline"><a href="./about.html">About</a></li>
-              <li class="px-2 cursor-pointer hover:text-emerald-800 hover:underline"><a href="#" >Contacts</a></li>
+              <li class="px-2 cursor-pointer hover:text-emerald-800 hover:underline"><a href="./about.html">About</a></li> 
           </ul>
         </div>
     
         <div class="">
-          <button class="mt-4 mb-2 flex mx-auto py-2 px-2 border-2 border-emerald-800 rounded-lg font-bold text-xs  hover:bg-emerald-900 hover:text-white shadow-lg sm:m-8 lg:text-md "><a href="./projects.html"></a>DONATE $$$</button>
-    
+          <button class="mt-4 mb-2 flex mx-auto py-2 px-2 border-2 border-emerald-800 rounded-lg font-bold text-xs hover:bg-emerald-900 hover:text-white shadow-lg sm:m-8 lg:text-md "><a href="./donate.html">DONATE $$$</button></a>
         </div>
+
       </nav>
       
       <!--Founder Bio-->
-      <div class="container mt-16 mx-auto">
-        <h1 class="text-center text-xl font-bold font-poppins lg:text-3xl">About Us</h1>
+      <div class="container mt-24 mx-auto ">
+        <h1 class="text-center text-xl font-bold font-poppins md:text-2xl">About Us</h1>
         
         
-        <div class="flex flex-col mt-10 md:flex-row">
+        <div class="flex flex-col mt-8 md:flex-row rounded-xl bg-rose-200">
 
-            <div class="mb-8 mx-auto w-[70%]  hover:-translate-y-5 transition-all duration-300 md:mx-4 md:w-[90%] lg:w-[50%]">   
+            <div class="my-4 mx-auto w-[70%]  hover:-translate-y-5 transition-all duration-300 md:mx-4 md:w-[90%] lg:w-[50%]">   
                 <img class="w-full h-fit rounded-lg " src="./img/jk.webp" alt="">
             </div>
 
 
 
-            <div class="w-full px-4 mb-8 text-center lg:self-center flex flex-col">
+            <div class="w-full px-4 mb-8 text-center lg:self-center flex flex-col ">
               <div class="my-4 font-semibold">
 
                 <h1 class="xl:text-xl">The Founder Of Pertubuhan Zakiyyah</h1>
               </div>
 
               <div>
-                <h1 class="mb-4 font-bold font-inter text-3xl">J.K Rowling</h1>
-                <p class="font-playfair text-lg  ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab nostrum, praesentium facere fugiat sapiente nihil ipsa molestiae. Esse eligendi delectus consequuntur quae aperiam cum animi pariatur veniam optio sequi illum, repellat obcaecati modi tempore provident porro reiciendis aspernatur eos facere dolore minus? Laboriosam suscipit esse dolor natus vero inventore temporibus?</p>
+                <h1 class="mb-4 font-bold font-inter text-2xl">J.K Rowling</h1>
+                <p class="font-playfair text-lg mx-auto w-8/12  leading-loose ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab nostrum, praesentium facere fugiat sapiente nihil ipsa molestiae. Esse eligendi delectus consequuntur quae aperiam cum animi pariatur veniam optio sequi illum, repellat obcaecati modi tempore provident porro reiciendis aspernatur eos facere dolore minus? Laboriosam suscipit esse dolor natus vero inventore temporibus?</p>
               </div>
               </div>
 
@@ -69,10 +68,11 @@
       </div>
 
 
-      <div class="container mx-auto mt-8">
+      <div class="container mx-auto mt-24">
         <div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 
           <h1 class="mt-8 mx-auto font-inter font-bold text-xl ">Research Assistant</h1>
+
           <div class=" mx-auto aspect-[4/5] w-[50%] rounded-lg overflow-hidden bg-cover bg-center shadow-lg hover:translate-y-5 transition-all duration-500  hover:shadow-xl md:col-start-1 md:row-start-2 md:aspect-[1/1] md:w-[100%] lg:w-[70%] lg:mx-auto " style="background-image: url(./img/foto-sushi-6anudmpILw4-unsplash.jpg);"></div>
 
           <h1 class="mt-8  mx-auto font-inter font-bold text-xl">Project Planner</h1>
@@ -86,34 +86,35 @@
       <div class="mt-24 ">
         
         <div class="mx-auto w-[90%] flex flex-col text-center lg:w-[70%] group ">
-        <h1 class="font-inter font-bold text-lg">Our Team</h1>
-        <img class="mt-4 rounded-full  shadow-lg" src="./img/omar-lopez-1qfy-jDc_jo-unsplash.jpg" alt="">
+          <h1 class="font-inter font-bold text-lg lg:text-2xl">Our Team</h1>
+          <img class="mt-8 rounded-full  shadow-lg" src="./img/omar-lopez-1qfy-jDc_jo-unsplash.jpg" alt="">
         </div>
         
       </div>
-
-      <div class="mt-24">
+ 
+      <div class="mt-24 ">
         
         <div class=" text-center">
-          <h1 class="font-bold font-poppins text-lg lg:text-2xl">Our Vision & Mission</h1>
+          <h1 class="font-bold font-poppins text-lg md:text-2xl">Our Vision & Mission</h1>
         </div>
 
-        <div class="flex flex-col lg:flex-row mt-8">
+
+        <div class="flex flex-col lg:flex-row mt-12 bg-orange-100 rounded-xl">
 
           <div class="w-[80%] mx-auto my-8 lg:w-[60vw] lg:ml-4 ">
             <img class="rounded-lg" src="./img/zac-durant-76HhAKI5JXI-unsplash.jpg" alt="">
           </div>
 
           
-          <div class="mt-8 lg:w-[40vw] 2xl:mt-20">
+          <div class="mt-4 lg:w-[40vw] self-center ">
 
-            <div class="my-8 ml-8 flex flex-col gap-4 lg:mt-0 ">
+            <div class="mb-8 ml-8 flex flex-col gap-4 lg:mt-0 ">
               <h1 class="font-bold font-poppins text-xl text-emerald-800 "> Vision</h1>
               <p class="mr-6 font-normal font-inter text-base"><span class="text-red-600"> -></span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde magni vitae officiis dolores illo quae, expedita nostrum iusto ea et!</p>
               <p class="mr-6 font-normal font-inter text-base"><span class="text-red-600"> -></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos labore ipsa exercitationem ea. Officiis, dignissimos?</p>  
             </div>
 
-            <div class="my-8 ml-8 flex flex-col gap-4 ">
+            <div class="mb-8 ml-8 flex flex-col gap-4 ">
               <h1 class="font-bold font-poppins text-xl text-emerald-800"> Mission</h1>
               <p class="mr-6 font-normal font-inter text-base"><span class="text-red-600"> -></span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia voluptate ipsam, numquam illum provident temporibus facere assumenda repellendus similique rerum.</p>
               <p class="mr-6 font-normal font-inter text-base"><span class="text-red-600"> -></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, dolorem!</p>
@@ -124,28 +125,37 @@
       </div>
     </div>
 
-    <div class=" mt-20 w-full h-full bg-red-600 flex flex-col">
+    <div class="mt-24 bg-red-600 flex justify-start">
 
-      <h1 class="mx-auto mt-2 font-inter font-semibold text-white text-base">SOCIALS</h1>
-      
-      <div class="flex mx-auto my-4  ">
-        <div class="mx-4 mt-2 p-2 w-[10vh] h-full bg-white rounded-lg flex"><a href="#"></a>
-          <i class="fa-brands fa-tiktok fa-2x mx-auto self-center"></i>
-        </div>
-    
-        <div class="mx-4 mt-2 p-2 w-[10vh] h-full bg-white rounded-lg flex"><a href="#"></a>
-          <i class="fa-brands fa-facebook fa-2x mx-auto self-center"></i>
-        </div>
-      
-        <div class="mx-4 mt-2 p-2 w-[10vh] h-full bg-white rounded-lg flex"><a href="#"></a>
-        <i class="fa-brands fa-instagram fa-2x mx-auto self-center"></i>
-        </div>
-  
+      <div class=" ml-4 justify-center flex flex-col ">
+        <p class="text-xl font-inter">Email us at</p>
+        <h1 class="text-2xl font-bold font-poppins text-white">pertubuhanzakiyyah@gmail.com</h1>
       </div>
+    
+      <div class="flex flex-col justify-center mx-48">
+          <div class="">
+            <h1 class="text-center mt-2 font-inter font-semibold text-white text-base">SOCIALS</h1>
+          </div>
       
-  
+        <div class="flex my-4 ">
+    
+          <div class="mx-4 mt-2 p-2 w-[10vh] h-full bg-white rounded-lg flex cursor-pointer hover:bg-opacity-60"><a href="#"></a>
+            <i class="fa-brands fa-tiktok fa-2x mx-auto self-center"></i>
+          </div>
+    
+          <div class="mx-4 mt-2 p-2 w-[10vh] h-full bg-white rounded-lg flex cursor-pointer hover:bg-opacity-60 "><a href="#"></a>
+            <i class="fa-brands fa-facebook fa-2x mx-auto self-center"></i>
+          </div>
+      
+          <div class="mx-4 mt-2 p-2 w-[10vh] h-full bg-white rounded-lg flex cursor-pointer hover:bg-opacity-60"><a href="#"></a>
+            <i class="fa-brands fa-instagram fa-2x mx-auto self-center"></i>
+          </div>
+        </div>
+      
+      </div>
+    
     </div>
 
-      
+   <script src="./index.js"></script>   
 </body>
 </html>
