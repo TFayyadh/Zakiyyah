@@ -223,3 +223,113 @@ function kiraGrade(array){
 }
 
 kiraGrade(markah)
+
+
+//Ex:Address Object
+ const address = 
+ {
+    street: "Wangsa Walk",
+    city: "Wanga Maju",
+    ZipCode: 52400,
+    
+}
+
+
+
+ function showAddress(address){
+     for(let key in address){
+         console.log(key, address[key]);
+     }
+ }
+
+ showAddress(address)
+
+//Ex:Factory Function
+ function showAlamat(street, city, zipCode){
+    return {
+        street,
+        city,
+        zipCode
+    }
+ }
+
+//Ex: Object Equality
+
+ let alamat1 = new Alamat("a,b,c")
+ let alamat2 = new Alamat("a,b,c")
+
+ console.log(areEqual(alamat1,alamat2));
+ console.log(areSame(alamat1,alamat2));
+
+//Constructor Function
+ function Alamat(street,city,zipCode){
+    this.street = street;
+    this.city = city;
+    this.zipCode = zipCode
+ }
+
+ 
+
+ function areEqual(alamat1,alamat2){
+    return alamat1.street === alamat2.street &&
+        alamat1.city === alamat2.city &&
+        alamat1.zipCode === alamat2.zipCode;
+ }
+
+ function areSame(alamat1, alamat2){
+    return alamat1 === alamat2;
+ }
+
+ //Ex:Blog Post Object
+
+ let blogPost = {
+    title:"Revolution",
+    body:"be revolutionary.",
+    author: "Fathi",
+    views: "98",
+    comments: [
+        { author: "Fitri", body: "lif is gewd"}
+    ],
+    isLive: true
+ }
+
+ console.log(blogPost);
+
+ //Ex:Constructor Functions
+
+ function Post(title,body,author ){
+
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = 0;
+    this.comments = [];
+    this.isLive = false;
+ }
+
+ let post1 = new Post("Bola", "Man Utd", "Ten Hag")
+ console.log(post1);
+
+ //Ex:Price Range Objects
+
+ const priceRange = [
+    {
+        label : "$",
+        tooltip: "Murah gila mat",
+        minPrice: 0,
+        maxPrice: 10
+    },
+    {
+        label : "$$",
+        tooltip: "Not bad harga dia",
+        minPrice: 11,
+        maxPrice: 20
+    },
+    {
+        label : "$$$",
+        tooltip: "Mahal gak ah",
+        minPrice: 21,
+        maxPrice: 30
+    },
+    
+ ]
